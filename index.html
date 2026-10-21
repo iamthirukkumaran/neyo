@@ -1,0 +1,1049 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NEYO — New people. Near you.</title>
+  <meta name="description" content="A hyperlocal social app to discover people, places, communities and memories around you. Go somewhere new. Meet who's around.">
+  <meta name="keywords" content="hyperlocal social app, nearby people, local communities, travel memories, trip planner, Coimbatore, Chennai, Bengaluru, Nilgiris">
+  
+  <!-- Preload Key Assets for Ultra-Fast Loading -->
+  <link rel="preload" as="image" href="assets/images/logo.svg" type="image/svg+xml">
+  <link rel="preload" as="image" href="assets/images/mock_food_platter.jpg" type="image/jpeg">
+
+  <!-- Open Graph / Social -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://neyo.app/">
+  <meta property="og:title" content="NEYO — New people. Near you.">
+  <meta property="og:description" content="Discover people, places, communities and memories around you. Real connections in your neighborhood.">
+  <meta property="og:image" content="assets/images/og_image.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
+  <link rel="apple-touch-icon" href="assets/images/app_icon_192.png">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+
+  <!-- Top Reading Scroll Progress Bar -->
+  <div class="scroll-progress-bar" id="scroll-progress" aria-hidden="true"></div>
+
+  <!-- Site Navigation -->
+  <header class="site-header">
+    <div class="container nav-container">
+      <a href="./" class="brand-logo" aria-label="NEYO Home">
+        <img src="assets/images/logo.svg" alt="NEYO" class="logo-img" data-base-path="" width="130" height="32">
+      </a>
+
+      <ul class="nav-links">
+        <li><a href="./" class="active">Home</a></li>
+        <li><a href="features/">Features</a></li>
+        <li><a href="safety/">Safety & Privacy</a></li>
+        <li><a href="research/">Why Local Matters</a></li>
+        <li><a href="download/">Download</a></li>
+        <li><a href="contact/">Contact</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <button class="theme-toggle" aria-label="Toggle theme"></button>
+        <a href="download/" class="btn btn-primary" style="padding: 9px 20px; font-size: 0.9rem;">Get App</a>
+        <button class="mobile-menu-btn" aria-label="Open navigation menu">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero-section">
+    <div class="hero-glow-bg"></div>
+    <div class="container hero-grid">
+      
+      <!-- Hero Copy -->
+      <div class="hero-content">
+        <div class="hero-tag-wrap">
+          <span class="hero-tag-dot"></span>
+          <span>New people. Near you.</span>
+        </div>
+
+        <h1 class="hero-title">
+          Explore every location, <br>
+          <span class="gradient-text">differently.</span>
+        </h1>
+
+        <p class="hero-lead">
+          Go to a new city and discover people, places, communities, events and memories around you — all in one place. Not an endless feed of distant influencers, but your actual neighborhood coming to life.
+        </p>
+
+        <div class="hero-actions store-buttons">
+          <a href="https://play.google.com/store/apps/details?id=com.neyoApp.neyo" class="store-badge" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M3.609 1.814L13.792 12 3.61 22.186a2.036 2.036 0 0 1-.22-.924V2.738c0-.33.078-.646.22-.924zm11.24 11.24L17.7 15.91l-11.83 6.83 8.979-9.686zm0-2.108L5.87 1.26 17.7 8.09l-2.851 2.856zm1.488 1.488l3.05-1.761a1.956 1.956 0 0 1 0 3.396l-3.05-1.635z"/></svg>
+            <div class="store-badge-text">
+              <span class="store-badge-subtitle">GET IT ON</span>
+              <span class="store-badge-title">Google Play</span>
+            </div>
+          </a>
+
+          <a href="https://apps.apple.com/app/neyo" class="store-badge" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M15.97 6.42c.67-.82 1.13-1.96 1-3.1-.97.04-2.15.65-2.85 1.47-.62.71-1.16 1.87-1.01 2.97 1.08.08 2.19-.52 2.86-1.34z"/></svg>
+            <div class="store-badge-text">
+              <span class="store-badge-subtitle">Download on the</span>
+              <span class="store-badge-title">App Store</span>
+            </div>
+          </a>
+        </div>
+
+        <div style="margin-top: 24px; display: flex; align-items: center; gap: 18px; font-size: 0.85rem; color: var(--text-muted); font-weight: 500; flex-wrap: wrap;">
+          <span style="display:flex; align-items:center; gap:6px;">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--green-online)" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+            100% Free
+          </span>
+          <span style="display:flex; align-items:center; gap:6px;">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--green-online)" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+            Zero Spammers in DMs
+          </span>
+          <span style="display:flex; align-items:center; gap:6px;">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--green-online)" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+            Location Off by Default
+          </span>
+        </div>
+      </div>
+
+      <!-- Hero Visual: Handcrafted Native Mobile UI Inside iPhone Mockup -->
+      <div class="phone-showcase-wrap">
+
+        <!-- Screen Switcher Tabs -->
+        <div class="phone-view-tabs" role="tablist" aria-label="App screen switcher">
+          <button class="phone-tab-btn active" data-screen="home" role="tab" aria-selected="true">
+            <span>🏠</span> Home Feed
+          </button>
+          <button class="phone-tab-btn" data-screen="chats" role="tab" aria-selected="false">
+            <span>💬</span> Direct Chats
+          </button>
+          <button class="phone-tab-btn" data-screen="profile" role="tab" aria-selected="false">
+            <span>🏔️</span> Trips & Profile
+          </button>
+        </div>
+
+        <!-- Floating Badge Left (Anbu Food Post) -->
+        <div class="floating-app-pill pill-top-left">
+          <div style="width:38px; height:38px; border-radius:50%; background:var(--grad-pin); display:flex; align-items:center; justify-content:center; color:#FFF; font-weight:700; font-size:0.85rem; flex-shrink:0;">
+            A
+          </div>
+          <div>
+            <div class="pill-title">Anbu · Very close</div>
+            <div class="pill-sub" style="color:var(--orange-accent);">📍 Coimbatore · Food & Stories</div>
+          </div>
+        </div>
+
+        <!-- Hyper-Realistic iPhone 15 Pro Titanium Mockup -->
+        <div class="iphone-pro-mockup" id="hero-phone-mockup" data-tilt>
+          
+          <!-- Physical Hardware Buttons -->
+          <span class="iphone-btn iphone-action-btn" aria-hidden="true"></span>
+          <span class="iphone-btn iphone-vol-up-btn" aria-hidden="true"></span>
+          <span class="iphone-btn iphone-vol-down-btn" aria-hidden="true"></span>
+          <span class="iphone-btn iphone-power-btn" aria-hidden="true"></span>
+
+          <!-- Titanium Chassis -->
+          <div class="iphone-chassis">
+            <div class="iphone-bezel">
+              
+              <!-- Micro Earpiece Speaker Mesh -->
+              <div class="iphone-speaker-mesh" aria-hidden="true"></div>
+
+              <!-- Dynamic Island with Optical Camera Lens Glint -->
+              <div class="iphone-dynamic-island" aria-hidden="true">
+                <div class="island-camera-lens"></div>
+                <div class="island-sensor"></div>
+              </div>
+
+              <!-- Specular Glass Glare Reflection -->
+              <div class="iphone-glass-glare" aria-hidden="true"></div>
+
+              <!-- Native Screen Container with 100% Coded UI -->
+              <div class="iphone-screen">
+                
+                <!-- Live iOS Status Bar -->
+                <div class="mock-status-bar">
+                  <span class="mock-status-time" id="mock-live-clock">8:33</span>
+                  <div class="mock-status-icons">
+                    <span class="mock-5g-text">5G</span>
+                    <svg class="mock-status-svg" viewBox="0 0 16 12" fill="currentColor">
+                      <rect x="0" y="8" width="2.5" height="4" rx="0.5"/>
+                      <rect x="4" y="6" width="2.5" height="6" rx="0.5"/>
+                      <rect x="8" y="3" width="2.5" height="9" rx="0.5"/>
+                      <rect x="12" y="0" width="2.5" height="12" rx="0.5"/>
+                    </svg>
+                    <div class="mock-battery-pill">
+                      <div class="mock-battery-fill"></div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- VIEW 1: HOME FEED -->
+                <div class="mock-app-screen active" id="mock-screen-home">
+                  
+                  <!-- App Header -->
+                  <div class="mock-app-header">
+                    <div class="mock-brand-wrap">
+                      <span class="mock-logo-text">NEY</span>
+                      <span class="mock-logo-pin">
+                        <svg viewBox="0 0 24 24" fill="#6E34A0"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/><circle cx="12" cy="9" r="3.5" fill="#EE6338"/></svg>
+                      </span>
+                    </div>
+
+                    <div class="mock-location-chip">
+                      <svg width="11" height="11" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/></svg>
+                      <span>Coimbatore · 5 km</span>
+                    </div>
+
+                    <div class="mock-header-actions">
+                      <div class="mock-bell-btn">
+                        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 0 1-3.46 0"/></svg>
+                        <span class="mock-badge-num">6</span>
+                      </div>
+                      <div class="mock-profile-circle">
+                        <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Stories Strip -->
+                  <div class="mock-stories-track">
+                    <div class="mock-story-item">
+                      <div class="mock-story-ring my-story">
+                        <img src="assets/images/mock_avatar_anbu.jpg" alt="Your Story" class="mock-story-img">
+                        <span class="mock-story-add">+</span>
+                      </div>
+                      <span class="mock-story-label">Your story</span>
+                    </div>
+                    <div class="mock-story-item">
+                      <div class="mock-story-ring has-story">
+                        <div class="mock-story-thumb">🛕</div>
+                      </div>
+                      <span class="mock-story-label">Marutham...</span>
+                    </div>
+                    <div class="mock-story-item">
+                      <div class="mock-story-ring has-story">
+                        <div class="mock-story-thumb">🗺️</div>
+                      </div>
+                      <span class="mock-story-label">Thondam...</span>
+                    </div>
+                    <div class="mock-story-item">
+                      <div class="mock-story-ring has-story">
+                        <div class="mock-story-thumb">🏞️</div>
+                      </div>
+                      <span class="mock-story-label">Walayar D...</span>
+                    </div>
+                    <div class="mock-story-item">
+                      <div class="mock-story-ring has-story">
+                        <div class="mock-story-thumb">🌿</div>
+                      </div>
+                      <span class="mock-story-label">Nanju...</span>
+                    </div>
+                  </div>
+
+                  <!-- Post Card -->
+                  <div class="mock-post-card">
+                    <div class="mock-post-user-row">
+                      <img src="assets/images/mock_avatar_anbu.jpg" alt="Anbu" class="mock-post-avatar">
+                      <div class="mock-post-user-info">
+                        <div class="mock-user-name">Anbu</div>
+                        <div class="mock-user-sub">Very close · 500 m</div>
+                      </div>
+                      <button class="mock-post-more-btn" aria-label="Post options">···</button>
+                    </div>
+
+                    <!-- Post Food Photo -->
+                    <div class="mock-post-media-wrap">
+                      <img src="assets/images/mock_food_platter.jpg" alt="Grilled tandoori chicken platter" class="mock-post-img">
+                      <span class="mock-media-counter">1/2</span>
+                    </div>
+
+                    <!-- Action Buttons -->
+                    <div class="mock-post-actions-row">
+                      <div class="mock-left-actions">
+                        <button class="mock-action-btn" id="mock-feed-like-btn" aria-label="Like post">
+                          <svg viewBox="0 0 24 24" fill="#EF4444" stroke="#EF4444" stroke-width="1.5"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+                        </button>
+                        <button class="mock-action-btn" aria-label="Comment">
+                          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+                        </button>
+                        <button class="mock-action-btn" aria-label="Share">
+                          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+                        </button>
+                      </div>
+                      <button class="mock-action-btn" aria-label="Bookmark">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg>
+                      </button>
+                    </div>
+
+                    <!-- Meta Proof -->
+                    <div class="mock-post-meta">
+                      <div class="mock-social-proof">
+                        <div class="mock-avatar-stack">
+                          <span class="stack-dot dot-1">A</span>
+                          <span class="stack-dot dot-2">R</span>
+                          <span class="stack-dot dot-3">K</span>
+                        </div>
+                        <span class="mock-likes-text"><strong id="mock-likes-count">3</strong> likes</span>
+                      </div>
+                      <div class="mock-time-views">3 days ago · 3 views</div>
+                    </div>
+                  </div>
+
+                </div>
+
+                <!-- VIEW 2: DIRECT CHATS -->
+                <div class="mock-app-screen" id="mock-screen-chats">
+                  <div class="mock-chats-header">
+                    <h3 class="mock-chats-title">Chats</h3>
+                  </div>
+
+                  <div class="mock-search-bar">
+                    <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+                    <span>Search chats</span>
+                  </div>
+
+                  <div class="mock-chat-list">
+                    <div class="mock-chat-row">
+                      <div class="mock-chat-avatar avatar-ragul">⚔️</div>
+                      <div class="mock-chat-body">
+                        <div class="mock-chat-top">
+                          <span class="mock-chat-name">Ragul</span>
+                          <span class="mock-chat-time">1d</span>
+                        </div>
+                        <div class="mock-chat-snippet">🙏</div>
+                      </div>
+                    </div>
+
+                    <div class="mock-chat-row">
+                      <div class="mock-chat-avatar avatar-teal">B</div>
+                      <div class="mock-chat-body">
+                        <div class="mock-chat-top">
+                          <span class="mock-chat-name">Bharathraj R</span>
+                          <span class="mock-chat-time">7d</span>
+                        </div>
+                        <div class="mock-chat-snippet">You: 📝 Shared a post</div>
+                      </div>
+                    </div>
+
+                    <div class="mock-chat-row">
+                      <div class="mock-chat-avatar avatar-green">K</div>
+                      <div class="mock-chat-body">
+                        <div class="mock-chat-top">
+                          <span class="mock-chat-name">Karan N</span>
+                          <span class="mock-chat-time">7d</span>
+                        </div>
+                        <div class="mock-chat-snippet">You: 📞 Missed voice call</div>
+                      </div>
+                    </div>
+
+                    <div class="mock-chat-row">
+                      <div class="mock-chat-avatar avatar-kathir">K</div>
+                      <div class="mock-chat-body">
+                        <div class="mock-chat-top">
+                          <span class="mock-chat-name">Kathir</span>
+                          <span class="mock-chat-time">8d</span>
+                        </div>
+                        <div class="mock-chat-snippet">You: Hi</div>
+                      </div>
+                    </div>
+
+                    <div class="mock-chat-row">
+                      <div class="mock-chat-avatar avatar-group">🏍️</div>
+                      <div class="mock-chat-body">
+                        <div class="mock-chat-top">
+                          <span class="mock-chat-name">Cbe group</span>
+                          <span class="mock-chat-time">9d</span>
+                        </div>
+                        <div class="mock-chat-snippet">Arun: 🎨 Sticker</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- VIEW 3: TRIPS & PROFILE -->
+                <div class="mock-app-screen" id="mock-screen-profile">
+                  <div class="mock-profile-cover">
+                    <img src="assets/images/mock_moto_hills.jpg" alt="Nilgiris motorcycle ride" class="mock-cover-img">
+                    <span class="mock-settings-icon">⚙️</span>
+                  </div>
+
+                  <div class="mock-profile-details">
+                    <div class="mock-profile-avatar-row">
+                      <img src="assets/images/mock_avatar_anbu.jpg" alt="Anbu" class="mock-profile-avatar">
+                      <div class="mock-stats-group">
+                        <div class="mock-stat-item"><strong>38</strong><span>Posts</span></div>
+                        <div class="mock-stat-item"><strong>13</strong><span>Connections</span></div>
+                        <div class="mock-stat-item"><strong>7</strong><span>Communities</span></div>
+                      </div>
+                    </div>
+
+                    <div class="mock-profile-name-row">
+                      <span class="mock-profile-name">Anbu 🔒</span>
+                      <span class="mock-profile-loc">📍 Coimbatore</span>
+                    </div>
+                    <div class="mock-profile-bio">hey 👋</div>
+
+                    <div class="mock-interest-chips">
+                      <span class="mock-chip chip-tech">💻 Tech</span>
+                      <span class="mock-chip chip-movies">🎬 Movies</span>
+                      <span class="mock-chip chip-fitness">💪 Fitness</span>
+                      <span class="mock-chip chip-food">🍜 Food</span>
+                    </div>
+
+                    <div class="mock-profile-cards">
+                      <div class="mock-purple-card">
+                        <span class="mock-card-icon">✈️</span>
+                        <div>
+                          <div class="mock-card-h">Trips & memories</div>
+                          <div class="mock-card-sub">4 trips · your places</div>
+                        </div>
+                      </div>
+                      <div class="mock-slate-card">
+                        <span class="mock-card-icon">🛡️</span>
+                        <div>
+                          <div class="mock-card-h">You're up to date</div>
+                          <div class="mock-card-sub">NEYO v1.0.0</div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="mock-photo-grid">
+                      <img src="assets/images/mock_food_platter.jpg" alt="Food">
+                      <img src="assets/images/mock_filter_tea.jpg" alt="Hot filter tea">
+                      <img src="assets/images/mock_rainy_street.jpg" alt="Rainy road">
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Floating Frosted Glass Bottom Navigation Bar -->
+                <div class="mock-floating-nav">
+                  <button class="mock-nav-item active" data-nav="home" aria-label="Home Feed">
+                    <svg width="19" height="19" viewBox="0 0 24 24" fill="currentColor"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/></svg>
+                  </button>
+                  <button class="mock-nav-item" data-nav="groups" aria-label="Communities">
+                    <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                  </button>
+                  <button class="mock-nav-center-btn" aria-label="Create new moment">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2.8"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+                  </button>
+                  <button class="mock-nav-item" data-nav="chats" aria-label="Chats">
+                    <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+                  </button>
+                  <button class="mock-nav-item" data-nav="profile" aria-label="Profile">
+                    <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+                  </button>
+                </div>
+
+                <!-- Bottom Home Indicator -->
+                <div class="iphone-home-indicator" aria-hidden="true"></div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div style="margin-top:16px; display:flex; justify-content:space-between; width:100%; max-width:326px; font-size:0.75rem; color:var(--text-muted); font-weight:500;">
+          <span>📍 Coimbatore · 5 km radius</span>
+          <span>Never shows exact address</span>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Warm Human Quote Banner -->
+  <section class="warm-quote-strip reveal-on-scroll">
+    <div class="container">
+      <div style="display:flex; justify-content:space-between; align-items:center; gap:32px; flex-wrap:wrap;">
+        <div class="warm-quote-text" style="max-width:760px;">
+          "Go somewhere new. Meet who's around. Find your people on your street, at your college, and in your city."
+        </div>
+        <a href="research/" class="btn btn-secondary" style="font-size:0.88rem; padding:10px 20px;">
+          Why Local Connection Matters ↗
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3-Step "How NEYO Works" Cards -->
+  <section class="section">
+    <div class="container">
+      
+      <div class="reveal-on-scroll" style="text-align:center; max-width:640px; margin:0 auto 48px;">
+        <span style="font-size:0.85rem; font-weight:700; color:var(--orange-accent); text-transform:uppercase; letter-spacing:1px; margin-bottom:8px; display:block;">
+          SIMPLE & NATURAL
+        </span>
+        <h2 style="font-size: 2.4rem; margin-bottom: 12px;">How NEYO works for you</h2>
+        <p style="color:var(--text-muted); font-size:1.02rem;">
+          Designed around the physical neighborhood you walk through every single day.
+        </p>
+      </div>
+
+      <div class="steps-grid">
+        <div class="step-card reveal-on-scroll stagger-1">
+          <div class="step-badge">1</div>
+          <h3 class="step-title">Set your circle</h3>
+          <p class="step-desc">
+            Choose how far your world extends. Keep it tight at 500m around your hostel, expand to 5km for your city, or open it up to 35km for weekend road trips.
+          </p>
+        </div>
+
+        <div class="step-card reveal-on-scroll stagger-2">
+          <div class="step-badge">2</div>
+          <h3 class="step-title">Connect before you chat</h3>
+          <p class="step-desc">
+            See someone nearby with shared interests in indie music, cycling, or badminton? Send a wave. You only message once you both say yes. Zero spammer DMs.
+          </p>
+        </div>
+
+        <div class="step-card reveal-on-scroll stagger-3">
+          <div class="step-badge">3</div>
+          <h3 class="step-title">Places keep memories</h3>
+          <p class="step-desc">
+            Start a shared trip with friends. Every photo, reel, and story shared during the journey stays tagged to that place. Revisit months later, and your memories come alive.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Interactive Discovery Radius Section -->
+  <section class="discovery-section section">
+    <div class="container">
+      <div class="discovery-box reveal-on-scroll">
+        
+        <div style="display:flex; justify-content:space-between; align-items:flex-end; gap:24px; flex-wrap:wrap; margin-bottom:24px;">
+          <div>
+            <span style="font-size:0.85rem; font-weight:700; color:var(--orange-accent); text-transform:uppercase; letter-spacing:1px; margin-bottom:6px; display:block;">
+              EXPLORE PROXIMITY
+            </span>
+            <h2 style="font-size:2.2rem; margin:0;">See who is around you right now</h2>
+            <p style="color:var(--text-muted); font-size:0.95rem; margin-top:6px;">
+              Slide to see how NEYO opens up your neighborhood from your street corner to weekend hill escapes.
+            </p>
+          </div>
+          <div style="text-align:right;">
+            <div class="discovery-huge-val gradient-text" id="discovery-radius-text">5.0 km</div>
+            <div id="discovery-count-text" style="font-size:0.85rem; color:var(--text-muted); font-weight:500;">
+              6 people & places around you
+            </div>
+          </div>
+        </div>
+
+        <!-- Slider -->
+        <input type="range" id="discovery-slider" class="discovery-slider" min="0.5" max="35" step="0.5" value="5.0" aria-label="Distance radius slider">
+
+        <!-- Presets -->
+        <div class="discovery-presets">
+          <button class="preset-chip" data-val="0.5">500m · Your Street</button>
+          <button class="preset-chip" data-val="2.0">2 km · Neighborhood</button>
+          <button class="preset-chip active" data-val="5.0">5 km · Your City</button>
+          <button class="preset-chip" data-val="35.0">35 km · Weekend Getaways</button>
+        </div>
+
+        <!-- Cards -->
+        <div class="discovery-cards-grid" id="discovery-items-wrap">
+          <!-- Populated by JS -->
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Feature Stories (Live Handcrafted Mobile UI Previews) -->
+  <section class="section">
+    <div class="container">
+      
+      <!-- Feature 1: People near you -->
+      <div class="feature-showcase-row reveal-on-scroll">
+        <div class="iphone-pro-mockup iphone-sm">
+          <span class="iphone-btn iphone-action-btn" aria-hidden="true"></span>
+          <span class="iphone-btn iphone-vol-up-btn" aria-hidden="true"></span>
+          <span class="iphone-btn iphone-vol-down-btn" aria-hidden="true"></span>
+          <span class="iphone-btn iphone-power-btn" aria-hidden="true"></span>
+          <div class="iphone-chassis">
+            <div class="iphone-bezel">
+              <div class="iphone-speaker-mesh" aria-hidden="true"></div>
+              <div class="iphone-dynamic-island" aria-hidden="true">
+                <div class="island-camera-lens"></div>
+                <div class="island-sensor"></div>
+              </div>
+              <div class="iphone-glass-glare" aria-hidden="true"></div>
+              
+              <div class="iphone-screen" style="height: 520px;">
+                <!-- Feed Card inside Phone -->
+                <div class="mock-app-screen active" style="padding-top:38px; padding-bottom:50px;">
+                  <div class="mock-app-header" style="padding:4px 10px 8px;">
+                    <span class="mock-logo-text" style="font-size:1rem;">NEYO</span>
+                    <span class="mock-location-chip" style="font-size:0.68rem;">📍 Coimbatore · 5 km</span>
+                  </div>
+
+                  <div class="mock-post-card">
+                    <div class="mock-post-user-row" style="padding:6px 10px;">
+                      <img src="assets/images/mock_avatar_anbu.jpg" alt="Anbu" class="mock-post-avatar" style="width:28px; height:28px;">
+                      <div class="mock-post-user-info">
+                        <div class="mock-user-name" style="font-size:0.78rem;">Anbu</div>
+                        <div class="mock-user-sub" style="font-size:0.65rem;">Very close · 500 m</div>
+                      </div>
+                    </div>
+                    <div class="mock-post-media-wrap" style="height:150px;">
+                      <img src="assets/images/mock_food_platter.jpg" alt="Food platter" class="mock-post-img">
+                    </div>
+                    <div class="mock-post-actions-row" style="padding:6px 10px;">
+                      <div style="font-size:0.75rem; font-weight:700; color:#EF4444;">❤️ 3 likes</div>
+                      <div style="font-size:0.65rem; color:#64748B;">Food & Stories</div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="iphone-home-indicator" aria-hidden="true"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <span class="feature-tag-title">PEOPLE NEAR YOU</span>
+          <h2 class="feature-main-title">Say hello without the weirdness.</h2>
+          <p class="feature-body-text">
+            See who's into the same things you are — indie music, trekking, street photography, or morning badminton. Send a wave. You only chat once you both say yes. Zero creepy cold messages from strangers. Ever.
+          </p>
+          <div style="display:flex; flex-direction:column; gap:14px;">
+            <div style="display:flex; align-items:center; gap:12px; font-weight:500;">
+              <div class="icon-box icon-box-green" style="width:34px; height:34px;">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="20 6 9 17 4 12"/></svg>
+              </div>
+              <span>Connections first: No spam messages from random strangers</span>
+            </div>
+            <div style="display:flex; align-items:center; gap:12px; font-weight:500;">
+              <div class="icon-box icon-box-purple" style="width:34px; height:34px;">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><circle cx="12" cy="12" r="10"/><path d="m4.93 4.93 4.24 4.24"/><path d="m14.83 9.17 4.24-4.24"/><path d="m14.83 14.83 4.24 4.24"/><path d="m9.17 14.83-4.24 4.24"/></svg>
+              </div>
+              <span>Adjustable radius: From your immediate street up to 35 km</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Feature 2: Local communities & Chats -->
+      <div class="feature-showcase-row reverse reveal-on-scroll">
+        <div class="iphone-pro-mockup iphone-sm">
+          <span class="iphone-btn iphone-action-btn" aria-hidden="true"></span>
+          <span class="iphone-btn iphone-vol-up-btn" aria-hidden="true"></span>
+          <span class="iphone-btn iphone-vol-down-btn" aria-hidden="true"></span>
+          <span class="iphone-btn iphone-power-btn" aria-hidden="true"></span>
+          <div class="iphone-chassis">
+            <div class="iphone-bezel">
+              <div class="iphone-speaker-mesh" aria-hidden="true"></div>
+              <div class="iphone-dynamic-island" aria-hidden="true">
+                <div class="island-camera-lens"></div>
+                <div class="island-sensor"></div>
+              </div>
+              <div class="iphone-glass-glare" aria-hidden="true"></div>
+              
+              <div class="iphone-screen" style="height: 520px;">
+                <!-- Chat Screen UI -->
+                <div class="mock-app-screen active" style="padding-top:38px; padding-bottom:40px;">
+                  <div class="mock-chats-header" style="padding:6px 12px 8px;">
+                    <h3 class="mock-chats-title" style="font-size:1.15rem;">Chats</h3>
+                  </div>
+
+                  <div class="mock-chat-list">
+                    <div class="mock-chat-row" style="padding:6px 12px;">
+                      <div class="mock-chat-avatar avatar-ragul" style="width:34px; height:34px; font-size:0.8rem;">⚔️</div>
+                      <div class="mock-chat-body">
+                        <div class="mock-chat-top"><span class="mock-chat-name" style="font-size:0.78rem;">Ragul</span><span class="mock-chat-time">1d</span></div>
+                        <div class="mock-chat-snippet" style="font-size:0.7rem;">🙏</div>
+                      </div>
+                    </div>
+
+                    <div class="mock-chat-row" style="padding:6px 12px;">
+                      <div class="mock-chat-avatar avatar-teal" style="width:34px; height:34px; font-size:0.8rem;">B</div>
+                      <div class="mock-chat-body">
+                        <div class="mock-chat-top"><span class="mock-chat-name" style="font-size:0.78rem;">Bharathraj R</span><span class="mock-chat-time">7d</span></div>
+                        <div class="mock-chat-snippet" style="font-size:0.7rem;">You: 📝 Shared a post</div>
+                      </div>
+                    </div>
+
+                    <div class="mock-chat-row" style="padding:6px 12px;">
+                      <div class="mock-chat-avatar avatar-group" style="width:34px; height:34px; font-size:0.8rem;">🏍️</div>
+                      <div class="mock-chat-body">
+                        <div class="mock-chat-top"><span class="mock-chat-name" style="font-size:0.78rem;">Cbe group</span><span class="mock-chat-time">9d</span></div>
+                        <div class="mock-chat-snippet" style="font-size:0.7rem;">Arun: 🎨 Sticker · 42 members</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="iphone-home-indicator" aria-hidden="true"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <span class="feature-tag-title">LOCAL COMMUNITIES & DIRECT CHATS</span>
+          <h2 class="feature-main-title">Real groups for your real street.</h2>
+          <p class="feature-body-text">
+            Groups for your campus, sports turf, book circle, music jam, or weekend motorcycle gang. Public communities appear nearby and require the creator's thumbs-up to join. Private groups stay completely invisible without your friend’s secret code.
+          </p>
+          <div style="display:flex; flex-direction:column; gap:14px;">
+            <div style="display:flex; align-items:center; gap:12px; font-weight:500;">
+              <div class="icon-box icon-box-orange" style="width:34px; height:34px;">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+              </div>
+              <span>Creator moderation: Approve members, ban trolls, and reset codes</span>
+            </div>
+            <div style="display:flex; align-items:center; gap:12px; font-weight:500;">
+              <div class="icon-box icon-box-purple" style="width:34px; height:34px;">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              </div>
+              <span>Printable QR join poster for cafes, colleges, and turf clubs</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Feature 3: Stories & Reels -->
+      <div class="feature-showcase-row reveal-on-scroll">
+        <div class="feature-photo-frame">
+          <img src="assets/images/onb3.jpg" alt="Young people enjoying coffee and conversation at a rooftop cafe terrace at dusk" loading="lazy">
+        </div>
+        <div>
+          <span class="feature-tag-title">STORIES & REELS</span>
+          <h2 class="feature-main-title">Share what's happening. Let tomorrow go.</h2>
+          <p class="feature-body-text">
+            Photos, high-definition videos with custom covers, community polls, and buy-and-sell posts. Stories naturally vanish after 24 hours. Tap any photo or video for an immersive full-screen reel feed curated by who is actually nearby, not a corporate algorithm.
+          </p>
+          <div style="display:flex; flex-direction:column; gap:14px;">
+            <div style="display:flex; align-items:center; gap:12px; font-weight:500;">
+              <div class="icon-box icon-box-green" style="width:34px; height:34px;">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"/><polyline points="16 6 12 2 8 6"/><line x1="12" y1="2" x2="12" y2="15"/></svg>
+              </div>
+              <span>Co-author posts: Tag friends as collaborators on shared moments</span>
+            </div>
+            <div style="display:flex; align-items:center; gap:12px; font-weight:500;">
+              <div class="icon-box icon-box-purple" style="width:34px; height:34px;">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><rect width="18" height="18" x="3" y="3" rx="2"/><path d="M3 9h18"/><path d="M9 21V9"/></svg>
+              </div>
+              <span>Choose your mix: Easily switch between Nearby, Friends, and Groups</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Feature 4: Memories that live on places -->
+      <div class="feature-showcase-row reverse reveal-on-scroll">
+        <div class="iphone-pro-mockup iphone-sm">
+          <span class="iphone-btn iphone-action-btn" aria-hidden="true"></span>
+          <span class="iphone-btn iphone-vol-up-btn" aria-hidden="true"></span>
+          <span class="iphone-btn iphone-vol-down-btn" aria-hidden="true"></span>
+          <span class="iphone-btn iphone-power-btn" aria-hidden="true"></span>
+          <div class="iphone-chassis">
+            <div class="iphone-bezel">
+              <div class="iphone-speaker-mesh" aria-hidden="true"></div>
+              <div class="iphone-dynamic-island" aria-hidden="true">
+                <div class="island-camera-lens"></div>
+                <div class="island-sensor"></div>
+              </div>
+              <div class="iphone-glass-glare" aria-hidden="true"></div>
+              
+              <div class="iphone-screen" style="height: 520px;">
+                <!-- Profile / Trips UI -->
+                <div class="mock-app-screen active" style="padding-top:34px; padding-bottom:40px;">
+                  <div class="mock-profile-cover" style="height:90px;">
+                    <img src="assets/images/mock_moto_hills.jpg" alt="Nilgiris motorcycle ride" class="mock-cover-img">
+                  </div>
+                  <div class="mock-profile-details" style="padding:0 10px;">
+                    <div class="mock-profile-avatar-row" style="margin-top:-22px; margin-bottom:4px;">
+                      <img src="assets/images/mock_avatar_anbu.jpg" alt="Anbu" class="mock-profile-avatar" style="width:46px; height:46px;">
+                      <div class="mock-stats-group" style="gap:10px;">
+                        <div class="mock-stat-item"><strong style="font-size:0.75rem;">38</strong><span>Posts</span></div>
+                        <div class="mock-stat-item"><strong style="font-size:0.75rem;">4</strong><span>Trips</span></div>
+                      </div>
+                    </div>
+                    <div class="mock-purple-card" style="padding:8px; margin-top:8px;">
+                      <span>✈️</span>
+                      <div>
+                        <div class="mock-card-h" style="font-size:0.7rem;">Trips & memories</div>
+                        <div class="mock-card-sub">4 trips · your places</div>
+                      </div>
+                    </div>
+                    <div class="mock-photo-grid" style="margin-top:8px;">
+                      <img src="assets/images/mock_food_platter.jpg" alt="Food">
+                      <img src="assets/images/mock_filter_tea.jpg" alt="Filter tea">
+                      <img src="assets/images/mock_rainy_street.jpg" alt="Rainy road">
+                    </div>
+                  </div>
+                </div>
+
+                <div class="iphone-home-indicator" aria-hidden="true"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <span class="feature-tag-title">TRIPS & MEMORIES</span>
+          <h2 class="feature-main-title">Your memories live on the places you visit.</h2>
+          <p class="feature-body-text">
+            Create a trip, friends scan a QR code to join, and set your timer. Everything the group posts during the journey is saved into one shared memory album. Return to that spot months later, and NEYO reminds you what you felt right there.
+          </p>
+          <div style="display:flex; flex-direction:column; gap:14px;">
+            <div style="display:flex; align-items:center; gap:12px; font-weight:500;">
+              <div class="icon-box icon-box-orange" style="width:34px; height:34px;">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><rect width="18" height="18" x="3" y="3" rx="2"/><path d="M7 7h.01"/><path d="M17 7h.01"/><path d="M7 17h.01"/><path d="M17 17h.01"/></svg>
+              </div>
+              <span>One QR scan to join: No waiting or messy WhatsApp links</span>
+            </div>
+            <div style="display:flex; align-items:center; gap:12px; font-weight:500;">
+              <div class="icon-box icon-box-green" style="width:34px; height:34px;">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              </div>
+              <span>"Places You've Been": Collect every spot you've ever explored</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Privacy Matrix ("You decide who sees what") -->
+  <section class="section" style="background: var(--bg-surface-elevated); border-top:1px solid var(--border-subtle); border-bottom:1px solid var(--border-subtle);">
+    <div class="container">
+      
+      <div class="reveal-on-scroll" style="text-align:center; max-width:680px; margin:0 auto 48px;">
+        <span style="font-size:0.85rem; font-weight:700; color:var(--orange-accent); text-transform:uppercase; letter-spacing:1px; margin-bottom:8px; display:block;">
+          PRIVACY BY DESIGN
+        </span>
+        <h2 style="font-size: 2.5rem; margin-bottom: 12px;">You decide who sees what.</h2>
+        <p style="color:var(--text-muted); font-size:1.02rem;">
+          No creepy tracking. No selling your personal data to ad brokers. You are always in control of your footprint.
+        </p>
+      </div>
+
+      <div class="privacy-table-box reveal-on-scroll">
+        <table class="privacy-table">
+          <thead>
+            <tr>
+              <th>When you post to…</th>
+              <th>Who sees it</th>
+              <th>Location detail</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <div style="display:flex; align-items:center; gap:10px; font-weight:700;">
+                  <div class="icon-box icon-box-orange" style="width:32px; height:32px;">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                  </div>
+                  <span>Everyone nearby</span>
+                </div>
+              </td>
+              <td>Only people near where you posted (within your radius)</td>
+              <td>Neighborhood level only. Never your exact GPS pin.</td>
+            </tr>
+            <tr>
+              <td>
+                <div style="display:flex; align-items:center; gap:10px; font-weight:700;">
+                  <div class="icon-box icon-box-purple" style="width:32px; height:32px;">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/></svg>
+                  </div>
+                  <span>Connections</span>
+                </div>
+              </td>
+              <td>Only your accepted friends, anywhere in the world</td>
+              <td>Optional place name tag (off by default).</td>
+            </tr>
+            <tr>
+              <td>
+                <div style="display:flex; align-items:center; gap:10px; font-weight:700;">
+                  <div class="icon-box icon-box-green" style="width:32px; height:32px;">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                  </div>
+                  <span>A community</span>
+                </div>
+              </td>
+              <td>Only that community's verified members</td>
+              <td>Members-only feed. Completely hidden from outsiders.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="privacy-grid-4">
+        <div class="privacy-card-unit reveal-on-scroll stagger-1">
+          <div class="icon-box icon-box-purple" style="margin-bottom:14px;">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><rect width="18" height="11" x="3" y="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+          </div>
+          <h4 style="font-size:1.05rem; margin-bottom:6px;">Private Accounts</h4>
+          <p style="font-size:0.88rem; color:var(--text-muted); line-height:1.6; margin:0;">
+            Lock your profile so strangers see nothing. Only your approved connections can view your moments.
+          </p>
+        </div>
+
+        <div class="privacy-card-unit reveal-on-scroll stagger-2">
+          <div class="icon-box icon-box-orange" style="margin-bottom:14px;">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><circle cx="12" cy="12" r="10"/><line x1="4.93" y1="4.93" x2="19.07" y2="19.07"/></svg>
+          </div>
+          <h4 style="font-size:1.05rem; margin-bottom:6px;">Block & Auto-Hide</h4>
+          <p style="font-size:0.88rem; color:var(--text-muted); line-height:1.6; margin:0;">
+            Block anyone with one tap. Any post flagged 3 times is automatically hidden across all feeds.
+          </p>
+        </div>
+
+        <div class="privacy-card-unit reveal-on-scroll stagger-3">
+          <div class="icon-box icon-box-green" style="margin-bottom:14px;">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          </div>
+          <h4 style="font-size:1.05rem; margin-bottom:6px;">Location Off by Default</h4>
+          <p style="font-size:0.88rem; color:var(--text-muted); line-height:1.6; margin:0;">
+            We never attach your location unless you explicitly choose to tag a place name.
+          </p>
+        </div>
+
+        <div class="privacy-card-unit reveal-on-scroll stagger-4">
+          <div class="icon-box icon-box-purple" style="margin-bottom:14px;">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          </div>
+          <h4 style="font-size:1.05rem; margin-bottom:6px;">App Check Security</h4>
+          <p style="font-size:0.88rem; color:var(--text-muted); line-height:1.6; margin:0;">
+            Hardened Firebase rules ensure only real, authentic mobile apps can ever connect to the backend.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Social Proof Strip with Animated Counter -->
+  <section class="section">
+    <div class="container">
+      
+      <div class="human-stats-strip reveal-on-scroll">
+        <div>
+          <div class="stat-huge">4.8★</div>
+          <div class="stat-desc">App Rating</div>
+        </div>
+        <div>
+          <div class="stat-huge">120+</div>
+          <div class="stat-desc">Local Communities</div>
+        </div>
+        <div>
+          <div class="stat-huge">50k+</div>
+          <div class="stat-desc">Moments Shared</div>
+        </div>
+        <div>
+          <div class="stat-huge">100%</div>
+          <div class="stat-desc">Free & Ad-Free</div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Final Call To Action (Warm Sunset Band) -->
+  <section class="container" style="margin-bottom: 96px;">
+    <div class="final-cta-banner reveal-on-scroll">
+      <div class="final-cta-overlay"></div>
+      <div class="final-cta-content">
+        <h2 class="final-cta-title">Your city is full of people you haven't met yet.</h2>
+        <p style="font-size:1.15rem; color:#E9D5FF; margin-bottom:36px; max-width:620px; margin-left:auto; margin-right:auto;">
+          Download NEYO today and experience your neighborhood with fresh eyes.
+        </p>
+
+        <div style="display:flex; justify-content:center; align-items:center; gap:36px; flex-wrap:wrap;">
+          <div class="store-buttons">
+            <a href="https://play.google.com/store/apps/details?id=com.neyoApp.neyo" class="store-badge" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M3.609 1.814L13.792 12 3.61 22.186a2.036 2.036 0 0 1-.22-.924V2.738c0-.33.078-.646.22-.924zm11.24 11.24L17.7 15.91l-11.83 6.83 8.979-9.686zm0-2.108L5.87 1.26 17.7 8.09l-2.851 2.856zm1.488 1.488l3.05-1.761a1.956 1.956 0 0 1 0 3.396l-3.05-1.635z"/></svg>
+              <div class="store-badge-text">
+                <span class="store-badge-subtitle">GET IT ON</span>
+                <span class="store-badge-title">Google Play</span>
+              </div>
+            </a>
+
+            <a href="https://apps.apple.com/app/neyo" class="store-badge" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M15.97 6.42c.67-.82 1.13-1.96 1-3.1-.97.04-2.15.65-2.85 1.47-.62.71-1.16 1.87-1.01 2.97 1.08.08 2.19-.52 2.86-1.34z"/></svg>
+              <div class="store-badge-text">
+                <span class="store-badge-subtitle">Download on the</span>
+                <span class="store-badge-title">App Store</span>
+              </div>
+            </a>
+          </div>
+
+          <!-- Dynamic QR code target -->
+          <div style="background:#FFFFFF; padding:12px; border-radius:18px; box-shadow:0 12px 30px rgba(0,0,0,0.2); width:130px; height:130px;">
+            <div class="dynamic-qr" data-url="https://play.google.com/store/apps/details?id=com.neyoApp.neyo" style="width:100%; height:100%;"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      
+      <div class="footer-brand">
+        <a href="./" aria-label="NEYO Home">
+          <img src="assets/images/logo.svg" alt="NEYO" class="logo-img" data-base-path="" width="120" height="30">
+        </a>
+        <p>
+          A hyperlocal social app to discover people, places, communities and memories around you. Real connections in real neighborhoods.
+        </p>
+      </div>
+
+      <div class="footer-links-col">
+        <h4>Product</h4>
+        <ul>
+          <li><a href="features/">All Features</a></li>
+          <li><a href="safety/">Safety & Privacy</a></li>
+          <li><a href="research/">Why Local Matters</a></li>
+          <li><a href="download/">Get App</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-links-col">
+        <h4>Legal & Compliance</h4>
+        <ul>
+          <li><a href="privacy/">Privacy Policy</a></li>
+          <li><a href="terms/">Terms of Service</a></li>
+          <li><a href="delete-account/">Delete Account</a></li>
+          <li><a href="child-safety/">Child Safety</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-links-col">
+        <h4>Connect</h4>
+        <ul>
+          <li><a href="contact/">Direct Desks</a></li>
+          <li><a href="mailto:support@neyo.app">support@neyo.app</a></li>
+          <li><a href="mailto:grievance@neyo.app">grievance@neyo.app</a></li>
+          <li><span>Coimbatore · Chennai · Bengaluru</span></li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="container footer-bottom">
+      <div>&copy; 2026 NEYO. All rights reserved. Handcrafted for authentic local connections.</div>
+      <div style="display:flex; gap:20px;">
+        <a href="privacy/">Privacy</a>
+        <a href="terms/">Terms</a>
+        <a href="contact/">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

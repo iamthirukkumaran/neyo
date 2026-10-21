@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 80" width="340" height="80" fill="none">
+  <defs>
+    <linearGradient id="pinGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7C3AED" />
+      <stop offset="60%" stop-color="#6E34A0" />
+      <stop offset="100%" stop-color="#EE6338" />
+    </linearGradient>
+  </defs>
+
+  <!-- Letter N -->
+  <path d="M 22 66 V 14 H 38 L 64 50 V 14 H 78 V 66 H 62 L 36 30 V 66 Z" fill="#6E34A0" />
+
+  <!-- Letter E -->
+  <path d="M 96 66 V 14 H 146 V 26 H 112 V 34 H 140 V 46 H 112 V 54 H 146 V 66 Z" fill="#6E34A0" />
+
+  <!-- Letter Y -->
+  <path d="M 160 14 H 178 L 195 42 L 212 14 H 230 L 204 51 V 66 H 186 V 51 Z" fill="#6E34A0" />
+
+  <!-- Letter O as Map Pin -->
+  <g transform="translate(244, 8)">
+    <path d="M 32 0 C 14.33 0 0 14.33 0 32 C 0 50.5 24 68.5 30.5 73.2 C 31.4 73.8 32.6 73.8 33.5 73.2 C 40 68.5 64 50.5 64 32 C 64 14.33 49.67 0 32 0 Z" fill="#6E34A0" />
+    <circle cx="32" cy="28" r="11" fill="#EE6338" />
+  </g>
+</svg>

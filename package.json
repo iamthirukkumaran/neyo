@@ -1,0 +1,23 @@
+{
+  "name": "neyo-website",
+  "version": "1.0.0",
+  "description": "NEYO Hyperlocal Social App Marketing & Legal Website",
+  "scripts": {
+    "start": "serve -p 3000 .",
+    "dev": "serve -p 3000 .",
+    "build:assets": "node scripts/build-assets.js"
+  },
+  "keywords": [
+    "neyo",
+    "hyperlocal",
+    "social",
+    "india",
+    "tamil-nadu"
+  ],
+  "author": "NEYO",
+  "license": "ISC",
+  "devDependencies": {
+    "serve": "^14.2.4",
+    "sharp": "^0.33.5"
+  }
+}
